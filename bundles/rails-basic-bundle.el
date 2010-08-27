@@ -101,4 +101,13 @@
   (rails/defresource 'javascript "Javascript"
                      :dir "public/javascripts"
                      :file-ext  "js")
- )
+
+  (rails/defresource 'configs "configs"
+                     :dir "config"
+                     :file-ext  "rb") 
+
+  (rails/defresource 'lib "lib"
+                     :dir "lib"
+                     :file-ext  "rb") 
+
+  )
