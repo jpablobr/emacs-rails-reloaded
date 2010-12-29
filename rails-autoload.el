@@ -112,11 +112,11 @@
 ;;; ---------------------------------------------------------
 ;;; - snippets
 ;;;
-(when (fboundp 'yas/minor-mode)
-  (let ((dir
-         (concat
-         (file-name-directory (locate-library "rails-reloaded"))
-         "snippets")))
-    (yas/load-directory dir)))
+;;; (when (fboundp 'yas/minor-mode)
+;;;   (let ((dir
+;;;          (concat
+;;;          (file-name-directory (locate-library "rails-reloaded"))
+;;;          "snippets")))
+;;;     (yas/load-directory dir)))
 
 (provide 'rails-autoload)
